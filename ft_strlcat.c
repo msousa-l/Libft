@@ -6,18 +6,18 @@
 /*   By: msousa-l <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/29 16:13:54 by msousa-l          #+#    #+#             */
-/*   Updated: 2023/10/06 11:49:37 by msousa-l         ###   ########.fr       */
+/*   Updated: 2023/10/09 14:20:00 by msousa-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //#define "libf.h"
 #include <bsd/string.h>
 
-size_t	ft_strlcat(char *dst,const char *src, size_t size)
+size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
 	size_t	i;
 	size_t	z;
-	size_t result;
+	size_t	result;
 
 	i = 0;
 	z = 0;

@@ -1,19 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_str_is_alpha.c                                  :+:      :+:    :+:   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: msousa-l <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/27 09:14:25 by msousa-l          #+#    #+#             */
-/*   Updated: 2023/07/31 11:21:05 by msousa-l         ###   ########.fr       */
+/*   Updated: 2023/10/09 14:33:02 by msousa-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 //#include "libft.h"
-#include <string.h>
-void	*ft_memcpy(void *dest,const void *src, size_t n)
+
+//#include <string.h>
+void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	size_t	i;
+	size_t			i;
 	unsigned char	*d;
 	unsigned char	*s;
 
@@ -25,7 +27,7 @@ void	*ft_memcpy(void *dest,const void *src, size_t n)
 		d[i] = s[i];
 		i++;
 	}
-	 return (dest);
+	return (dest);
 }
 /*
 #include <stdio.h>

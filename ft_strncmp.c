@@ -6,14 +6,14 @@
 /*   By: msousa-l <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/29 10:47:55 by msousa-l          #+#    #+#             */
-/*   Updated: 2023/10/06 13:22:39 by msousa-l         ###   ########.fr       */
+/*   Updated: 2023/10/09 14:24:59 by msousa-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //#define "libft.h"
 //#include <string.h>
 
-int	ft_strncmp(const char *s1, const  char *s2, size_t n)
+int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	size_t	i;
 
